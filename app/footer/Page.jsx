@@ -1,9 +1,8 @@
 "use client";
 
-import React from "react";
-import { FaFacebookF, FaLinkedinIn, FaTwitter, FaGem, FaCrown, FaStar, FaShieldAlt } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
 import Link from "next/link";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaCrown, FaFacebookF, FaGem, FaLinkedinIn, FaShieldAlt, FaStar, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   const SocialIcons = [
@@ -36,7 +35,7 @@ const Footer = () => {
     { title: "Bangles", path: "/bangles" },
     { title: "Rings", path: "/ring" },
     { title: "Earrings", path: "/earrings" },
-    { title: "Ankle Bracelets", path: "/ankle" },
+    { title: "Bracelets", path: "/Bracelets" },
   ];
 
   const services = [
